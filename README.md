@@ -2,7 +2,7 @@
 
 # Parcel Plugin EnvVar Allowlist
 
-A plugin for the Parcel bundler to subsitute environment variables based on an explicit allow list of keys in [vanilla javascript](http://vanilla-js.com/) files.
+A plugin for the [Parcel](https://parceljs.org/) bundler to subsitute environment variables based on an explicit allow list of keys in [vanilla javascript](http://vanilla-js.com/) files.
 
 ## Install
 
