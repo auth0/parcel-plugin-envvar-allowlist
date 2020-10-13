@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-envvar-allowlist",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A parcel plugin for simple environment variable substitution with allowlist",
   "license": "MIT",
   "author": "Auth0",
@@ -13,13 +13,12 @@
     "url": "git+https://github.com/auth0/parcel-plugin-envvar-whitelist.git"
   },
   "main": "src/index.js",
-  "scripts": {
-
-  },
+  "scripts": {},
   "keywords": [
     "parcel",
     "envvar"
-  ]
-
-
+  ],
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
