@@ -14,11 +14,11 @@ npm install auth0/parcel-plugin-envvar-allowlist
 ## Configuration
 This plugin will load a config file located in the root directory of your project named `envvar.config.js`.
 
-The config file must export and object with and explicit permitted list of environment variable keys.
+The config file must export and object with and explicit allowed list of environment variable keys.
 
 ```
 module.exports = {
-  permitted: [
+  allowed: [
     "DOMAIN",
     "CLIENT_ID"
   ]
